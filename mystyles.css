@@ -1,0 +1,10 @@
+.collapsible_panel_label:after {
+    font-family: 'Glyphicons Halflings';
+    content: " \e259";
+    color: grey;
+    vertical-align: bottom;
+    font-size: 80%
+}
+.collapsible_panel_label.uncollapsed:after {
+    content: " \e258"
+}

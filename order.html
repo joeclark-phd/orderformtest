@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sales Orders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- custom css -->
+  <link rel="stylesheet" href="mystyles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- brand and toggle -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="mynavbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">LNT/Fulfil</a>
+    </div>
+    <!-- navbar elements/links would go here -->
+  </div>
+</nav>
+
+<div class="container">
+  <h2>SO1234567 <small>quotation</small><button type="button" class="btn btn-primary pull-right">Confirm</button></h2>
+  <hr>
+  <form class="form-horizontal">
+    <div class="form-group form-group-sm">
+      <label class="col-sm-2 control-label">Date</label>
+      <div class="col-sm-2"><input type="text" class="form-control" readonly value="April 12, 2017"></div>
+      <label class="col-sm-1 control-label">Channel</label>
+      <div class="col-sm-3"><input type="text" class="form-control" readonly value="Phone Order"></div>
+      <label class="col-sm-1 control-label">Agent</label>
+      <div class="col-sm-3"><input type="text" class="form-control" readonly value="Kirsten Lie-Nielsen"></div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Customer</label>
+      <div class="col-sm-10"><input type="text" class="form-control"></div>
+    </div>
+    <hr>
+    <h5 class="text-right collapsible_panel_label uncollapsed"><a href="#contactpanel" data-toggle="collapse">Contact Information</a> </h5>
+      <div class="collapse" id="contactpanel">
+        <div class="form-group form-group-sm">
+          <label class="col-sm-2 control-label">Customer#</label>
+          <div class="col-sm-2"><input type="text" class="form-control" readonly value="24601"></div>
+          <label class="col-sm-1 control-label">Email</label>
+          <div class="col-sm-3"><input type="text" class="form-control" readonly value="joeclark.phd@gmail.com"></div>
+          <label class="col-sm-1 control-label">Phone</label>
+          <div class="col-sm-3"><input type="text" class="form-control" readonly value="555-867-5309"></div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Invoice Address</label>
+          <div class="col-sm-9"><div class="input-group">
+            <input type="text" class="form-control" readonly>
+            <span class="input-group-btn"><button class="btn btn-primary" type="button">Input</button></span>
+          </div></div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-3 control-label">Shipping Address</label>
+          <div class="col-sm-9"><div class="input-group">
+            <span class="input-group-btn"><button class="btn btn-primary" type="button">Same</button></span>
+            <input type="text" class="form-control" readonly>
+            <span class="input-group-btn"><button class="btn btn-primary" type="button">Input</button></span>
+          </div></div>
+        </div>
+      </div>
+    <hr>
+    <h5 class="text-right collapsible_panel_label uncollapsed"><a href="#itemspanel" data-toggle="collapse">Items</a> </h5>
+      <div class="collapse" id="itemspanel">foo</div>
+    <hr>
+    <h5 class="text-right collapsible_panel_label uncollapsed"><a href="#taxespanel" data-toggle="collapse">Taxes and Shipping</a> </h5>
+      <div class="collapse" id="taxespanel">foo</div>
+    <hr>
+    <h5 class="text-right collapsible_panel_label uncollapsed"><a href="#shipmentspanel" data-toggle="collapse">Shipments</a> </h5>
+      <div class="collapse" id="shipmentspanel">foo</div>
+    <hr>
+    <h5 class="text-right collapsible_panel_label uncollapsed"><a href="#commentspanel" data-toggle="collapse">Comments</a> </h5>
+      <div class="collapse" id="commentspanel">foo</div>
+  </form>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="JWCcustomscripts.js"></script>
+</body>
+</html>
